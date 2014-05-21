@@ -1,0 +1,34 @@
+<h1 style="font-family: STHeiti; white-space: normal;">
+    MDeditor Demo
+</h1>
+<h2>
+    文本编辑
+</h2>
+<p>
+    <strong>粗体</strong> <em>斜体</em><br/>
+</p>
+<h2>
+    插入内容
+</h2>
+<h2>
+    <span style="font-family: STHeiti; font-size: 16px;">图片</span>
+</h2>
+<p>
+    <img src="http://fex.baidu.com/public/images/logo.png" _src="http://fex.baidu.com/public/images/logo.png"/>
+</p>
+<h3>
+    链接
+</h3>
+<p>
+    <a href="http://fex.baidu.com" title="http://fex.baidu.com">fex.baidu.com</a>
+</p>
+<p>
+    <strong></strong>
+</p>
+<p style="white-space: normal;"></p>
+<h3 style="white-space: normal;">
+    公式
+</h3>
+<p style="white-space: normal;">
+    <span class="mathquill-embedded-latex" style="width: 78px; height: 42px;">\frac{4}{1312312}</span>
+</p>

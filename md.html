@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MD</title>
+
+    <!-- umeditor -->
+    <script src="lib/jquery/jquery-1.11.1.min.js"></script>
+
+    <script src="lib/ueditor/ueditor.config.js"></script>
+    <script src="lib/ueditor/ueditor.all.js"> </script>
+    <script src="lib/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+    <!-- markdown.js -->
+    <script src="lib/markdown.js"></script>
+
+    <!-- html2markdown.js -->
+    <!--<script src="lib/markdown_dom_parser.js"></script>-->
+    <!--<script src="lib/html2markdown.js"></script>-->
+
+    <!-- to-markdown.js -->
+    <script src="lib/to-markdown.js"></script>
+
+    <!-- src/mdeditor.js -->
+    <script src="src/mdeditor.js"></script>
+    <link rel="stylesheet" href="style/mdeditor.css"/>
+
+    <!-- combine.css -->
+    <link rel="stylesheet" href="style/combine.css"/>
+
+    <style>
+    </style>
+</head>
+<body>
+
+    <h1>MDeditor Demo</h1>
+    <script type="text/plain" id="umeditor" style="width:850px;height:260px;">
+        <p>这里我可以写一些输入提示</p>
+    </script>
+    <div id="mdeditor" style="width:850px;height:280px;"></div>
+    <script>
+        var ue = UE.getEditor('umeditor', {
+            toolbar: [
+                'source undo redo | bold italic | insertorderedlist insertunorderedlist',
+                'link formula image drafts paragraph fullscreen'
+            ]
+        });
+        ue.ready(function(){
+            var md = new MDeditor('mdeditor', ue);
+            $.get('data.txt', function(r) {
+                ue.setContent(r);
+                md.setHtmlContent(r);
+            })
+        });
+    </script>
+
+</body>
+</html>
