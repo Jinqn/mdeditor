@@ -5,7 +5,7 @@ ue.ready(function(){
     ue.addListener('afterSetContent', function(){
         var md = ue.getPlainTxt();
         var blocks = split_blocks(md);
-        debugger;
+        console.log(blocks);
     });
 
     ue.setContent('<p># 标题1【a】</p>' +
