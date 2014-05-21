@@ -1,0 +1,17 @@
+
+/* umeditor */
+.edui-container {
+    /*box-shadow: none;*/
+}
+.edui-body-container {
+    height:260px;
+    overflow-y: auto;
+}
+
+/* mdeditor */
+.mdui-container{
+    border-top: 0;
+    z-index: 999;
+    height:260px;
+    overflow-y: auto;
+}
