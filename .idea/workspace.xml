@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc6fbfd8-46a2-41f6-9876-33196b8680b0" name="Default" comment="" />
+    <list default="true" id="bc6fbfd8-46a2-41f6-9876-33196b8680b0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ueditor.src/ueditor.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ueditor/ueditor.all.js" afterPath="$PROJECT_DIR$/lib/ueditor/ueditor.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="mdeditor.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,31 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="79" selection-start="2267" selection-end="2267" vertical-scroll-proportion="-6.9259257" vertical-offset="850" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ueditor.config.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/ueditor.src/ueditor.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="30" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.4259681" vertical-offset="391" max-vertical-offset="6834">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
+            <state line="6" column="40" selection-start="207" selection-end="207" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="442">
               <folding>
                 <element signature="n#style#0;n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ueditor.src/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="269" selection-end="269" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.53640777" vertical-offset="510" max-vertical-offset="1700">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -80,6 +85,7 @@
         <option value="$PROJECT_DIR$/lib/ueditor.src/index.html" />
         <option value="$PROJECT_DIR$/lib/ueditor.src/package.json" />
         <option value="$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/lib/ueditor.src/ueditor.config.js" />
       </list>
     </option>
   </component>
@@ -131,20 +137,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mdeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,25 +268,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ueditor.src/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="269" selection-end="269" vertical-scroll-proportion="0.39906102" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ueditor/themes/default/css/ueditor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.30088496" vertical-offset="0" max-vertical-offset="31314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
+        <state line="6" column="40" selection-start="207" selection-end="207" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="442">
           <folding>
             <element signature="n#style#0;n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ueditor.src/package.json">
+    <entry file="file://$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="269" selection-end="269" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="629">
+        <state line="61" column="79" selection-start="2267" selection-end="2267" vertical-scroll-proportion="-6.9259257" vertical-offset="850" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ueditor.src/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/lib/ueditor.src/ueditor.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.53640777" vertical-offset="510" max-vertical-offset="1700">
+        <state line="37" column="30" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.4259681" vertical-offset="391" max-vertical-offset="6834">
           <folding />
         </state>
       </provider>
